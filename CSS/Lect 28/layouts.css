@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    padding: 4rem;
+    gap: 1rem;
+    grid-template-rows: repeat(5,1fr);
+    grid-template-columns: repeat(3,1fr);
+}
+.item{
+    background-color: rgb(94, 94, 194);
+    border: 5px solid black;
+    color: white;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    font-size: 2.3rem;
+}
+.header{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
