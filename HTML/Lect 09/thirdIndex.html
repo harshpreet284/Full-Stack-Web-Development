@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Complex Form</h2>
+    <form>
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name">
+            <label for="email">Email</label>
+            <input type="email" name="emailId" id="email">
+            <label for="phoneno.">Phone</label>
+            <input type="tel" name="phone" id="phoneno.">
+            <label for="datepicker">Date of Birth</label>
+            <input type="date" name="date" id="datepicker">
+            <p class="gender-group">Gender
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female">
+            <label for="female">Female</label>
+        </p>
+            <label for="country">Country</label>
+            <br/>
+            <select name="Country" id="country">
+                <option value="">--Please choose an option--</option>
+                <option value="india">India</option>
+                <option value="america">America</option>
+            </select>
+        </fieldset> 
+        <fieldset>
+            <legend>Address Street
+                <input type="text" name="address" id="address">
+                City
+                <input type="text" name="city" id="city">
+                State
+                <input type="text" name="state" id="state">
+                Zip Code
+                <input type="text" name="zipcode" id="zipcode">
+            </legend>
+        </fieldset>
+        <fieldset>
+            <legend>Other Information</legend>
+            <label for="comments">Comments</label>
+            <textArea id="comments" rows="5" cols="40"></textArea>
+            <label for="agree">I agree to the terms of service</label>
+            <input type="checkbox" name="agree" id="agree">
+        </fieldset>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
